@@ -1,0 +1,52 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+header{
+   text-align: center;
+   color: rgb(67, 56, 56);
+   background-color:#ffa2ff;
+}
+
+.navegacion{
+   background-color: #fff09d;
+}
+
+.navegacion-ul {
+   display: flex;
+   gap: 35px;
+   background-color: #fff09d;
+   list-style: none;
+}
+
+h1{
+   color: rgb(67, 56, 56);
+}
+
+main{
+   background: #f8efed;
+}
+
+aside{
+   background-color: #e9d4ed;
+}
+
+#mejores-albumes{
+   display: flex;
+   flex-direction: row;
+   gap: 35px;
+}
+
+#mejores-artistas{
+   display: flex;
+   flex-direction: row;
+   gap: 35px;
+}
+
+#mejores-canciones{
+   display: flex;
+   flex-direction: row;
+   gap: 35px;
+}
